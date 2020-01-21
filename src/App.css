@@ -1,3 +1,56 @@
+:root {
+  --background-gray: #E1E8ED;
+  --dark-gray: #66757F;
+  --text-black: #292F33;
+  --title-blue: #55ACEE;
+}
+
 .App {
   margin: 20px;
+  background-color: var(--main-gray);
+}
+
+p {
+  color: var(--text-black)
+}
+
+h1, h2 {
+  color: var(--title-blue)
+}
+
+#region-selectors-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dropdown {
+  margin-left: 20px; 
+  margin-right: 100px;
+}
+
+.all-continents {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.continent-wrapper {
+  display: flex;
+  flex-direction: column
+}
+
+.country-lists-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 5px
+}
+
+li img {
+  height: 1em
 }
